@@ -1,0 +1,214 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@900&display=swap');
+
+/* Fonts */
+/* CSS Style Code */
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: start;
+    padding: 40px;
+    background-color: #ffffff;
+    font-family: 'Tajawal', sans-serif;
+    height: 10px;
+    font-weight: 700;
+}
+.lists{
+    display: flex; 
+    padding-left: 0px;
+}
+.lists ul{
+  padding-inline: 210px;
+}
+.nameofthewb img{
+    padding: 0;
+}
+.nav ul{
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+.nav ul li{
+    padding-inline: 10px;
+    color: #ffffff;
+}
+.nav ul li a{
+    color: #000000;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav ul li a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #000000;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+.nav ul li a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.page1 video{
+    opacity: 0.8;
+}
+.page2{
+    justify-content: center;
+    align-self: center;
+}
+.page2 h1 {
+   font-size: 50px;
+   text-align: center;
+   font-family: 'Tajawal', sans-serif;
+   font-weight: 900;
+   text-transform: uppercase;
+}
+.nikeinheading{
+    padding: 50px;
+    justify-content: center;
+}
+.iii{
+    font-size: 20px;
+    text-align: center; 
+    font-family: 'Tajawal', sans-serif;
+}
+.gearup span{
+    padding-left: 40px;
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+}
+.slides{
+    display: flex;
+    padding: 20px 50px 50px 50px;
+    /* padding-inline: 50px; */
+}
+.decriptionimglrightFFF{
+    padding-left: 152px;
+    font-size: 13px;
+}
+.decriptionimglrightBBB{
+    padding-left: 152px;
+    font-size: 13px;
+}
+.decriptionimglrightEEE{
+    padding-left: 152px;
+    font-size: 13px;
+}
+.descriptionimg{
+    display: flex;
+    margin: 0;
+}
+.decriptionimgleft span{
+    padding: 0;
+   /*  */ padding-right: 10px !important;
+    font-size: 13px !important;
+    color: #000000;
+}
+.decriptionimglright{
+    padding-left: 136px;
+    font-size: 13px;
+}
+.sslider{
+     padding-right: 10px;
+}
+.sslider1{
+    padding-left: 10px;
+}
+.sslides2{
+    padding-left: 10px;
+}
+.opdec{
+    opacity: 0.5;
+}
+.sliderf{
+    padding: 20px 50px 50px 50px;
+}
+.MoreofFootball span{
+  padding-left: 40px;
+  font-size: 30px;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 700;
+
+}
+.MoreofFootball div{
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+}
+.sslides2f{
+    display: flex;
+    justify-content: space-around;
+}
+.descriptionimgf{
+    padding: 0 !important;
+}
+.descriptionimgf button{
+    background: #000000;
+    color: #ffffff;
+    border: 10px solid #000000;
+    font-size: 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.descriptionimgf button:hover{
+    opacity: 0.5;
+}
+.footer{
+  color: #ffffff;
+  background-color: #000000;
+}
+.topfooter{
+  display: flex;
+  justify-content: space-evenly;
+}
+.topfooter ul li {
+  list-style: none;
+}
+.topfooter ul li a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Tajawal', sans-serif;
+}
+.middlefooter{
+  display: flex;
+  justify-content: end;
+}
+.middlefooter a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Tajawal', sans-serif;
+  padding-right: 18px;
+  opacity: 0.5;
+}
+.middlefooter a:hover{
+  opacity: 1;
+}
+.bottomfooter div{
+  display: flex;
+  font-size: 15px;
+  padding: 10px;
+}
+.bottomfooter div a{
+cursor: pointer;
+color: #ffffff;
+}
+.bottomfooter div a:hover, .bottomfooter div a:active {
+  color: #ffffff;
+}
+
+/* CSS Style Code */
